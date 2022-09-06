@@ -33,7 +33,6 @@ const TweetBoxIcon = styled(Box)({
 
 const IconList = styled(Box)({
     display:'flex',
-    justifyContent:'center',
     width:50,
     justifyContent:'space-between'
 })
@@ -112,7 +111,7 @@ const Feeds = () => {
                         rows={2.5}
                         fullWidth
                         placeholder="Apa yang sedang terjadi ?"
-                        disableUnderline='true'          
+                        disableUnderline={true}   
                     />
 
                     <IconTweet mt={1}>

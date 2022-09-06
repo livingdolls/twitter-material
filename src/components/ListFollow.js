@@ -2,15 +2,15 @@ import { Avatar, Button, ListItem, ListItemAvatar, ListItemButton, ListItemText,
 
 const Follow = [
     {id:1,nama:'Asuka Saito',uname:'@Asuka_saito'},
-    {id:1,nama:'Hirate Yurina',uname:'@Techi'},
-    {id:1,nama:'Nanang Setiawan',uname:'@Yurina'}
+    {id:2,nama:'Hirate Yurina',uname:'@Techi'},
+    {id:3,nama:'Nanang Setiawan',uname:'@Yurina'}
 ]
 
 const ListFollow = () => {
     return(
         Follow.map((foll) => {
             return (
-                <ListItem
+                <ListItem key={foll.id}
                     secondaryAction={
                         <Button 
                             color='item'
@@ -38,17 +38,19 @@ const ListFollow = () => {
                             <Typography 
                                 fontWeight={500}
                                 color={'text.primary'}
-                                display='block' 
-                                component='h6'>
+                                display='block'
+                                variant='body2'
+                                component='span'>
                                 {foll.nama}
                             </Typography>
                             }
                             secondary={
                                 <Typography 
-                                    ontWeight={200}
+                                    fontWeight={200}
                                     color={'text.secondary'}
-                                    display='block' 
-                                    component='h6'>
+                                    display='block'
+                                    variant="body2" 
+                                    component='span'>
                                     {foll.uname}
                                 </Typography>}
                                 />

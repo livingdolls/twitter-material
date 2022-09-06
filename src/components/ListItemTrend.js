@@ -31,8 +31,9 @@ const ListItemTrend = ({TrenPosting}) => {
                             <Typography 
                             fontWeight={500}
                             color={'text.primary'}
-                            display='block' 
-                            component='h6'>
+                            display='block'
+                            component="span" 
+                            variant='body1'>
                                 {post.title}
                             </Typography>
     

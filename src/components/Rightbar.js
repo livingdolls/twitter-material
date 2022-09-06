@@ -52,7 +52,7 @@ const Rightbar = () => {
                 <Stack direction='row'>
                 <SearchBar color={'text.primary'}>
                 <Input
-                disableUnderline='true'
+                disableUnderline={true}
                     id="input-with-icon"
                     placeholder="Cari di Twitter"
                     startAdornment={

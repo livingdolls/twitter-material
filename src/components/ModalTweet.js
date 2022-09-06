@@ -60,7 +60,7 @@ const ModalTweet = ({open, clModal}) =>{
                             rows={6}
                             fullWidth
                             placeholder="Apa yang sedang terjadi ?"
-                            disableUnderline='true' 
+                            disableUnderline={true}
                         />
 
                         <Button 

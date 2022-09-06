@@ -30,6 +30,7 @@ const TweetPosts = ({TweetBox, TweetBoxIcon, IconList}) => {
                     p={1}
                     ml={1}
                     sx={{minHeight:100,borderBottom:1, borderBottomColor:'rgba(166, 166, 170, 0.6)'}}
+                    key={post.id}
                 >
                     <Avatar 
                         sx={{height:50, width:50}} 
