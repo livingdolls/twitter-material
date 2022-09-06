@@ -1,7 +1,8 @@
 **Deskripsi Projek**
 Twitter UI Clone menggunakan Material UI dan React JS
 
-****Screenshot Projek
+**Screenshoot Projek**
+
 **_Light Mode_**
 ![alt text](https://raw.githubusercontent.com/livingdolls/twitter-material/main/src/assets/Screenshoot/Twitter%20Large.png)
 ![alt text](https://raw.githubusercontent.com/livingdolls/twitter-material/main/src/assets/Screenshoot/Twitter%20Med.png)
